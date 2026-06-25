@@ -2,6 +2,10 @@
 
 class Program{
     static void Main(){
-        // A Branch Main niguem pode editar, somente eu
+        Console.WriteLine("Hello");
+        Console.WriteLine("Entre com seu Nome:");
+        string nome = Console.ReadLine();
+
+        Console.Write($"Hello {nome}!");
     }
 }
