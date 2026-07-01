@@ -32,6 +32,10 @@ rm -f ~/.ssh/id_rsa ~/.ssh/id_rsa.pub
 git credential-cache exit 2> /dev/null || true
 
 ```
+- PowerShel
+```bash
+git credential-cache exit 2> $null; $? = $true
+``` 
 
 # 🛑 PASSO 2: Configurar Seu Usuário e Criar Chave RSA
 
